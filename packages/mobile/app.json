@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.spendwise_q7fz.runable",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#7C3AED"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "extra": {
+      "apiUrl": "https://spendwi-kd8xfjj-preview-4200.runable.site/",
+      "applicationId": "spendwi-kd8xfjj",
+      "runableAuthIssuer": "https://api.runable.com/api/auth"
+    },
+    "ios": {
+      "bundleIdentifier": "com.spendwise_q7fz.runable",
+      "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#5B21B6"
+    },
+    "name": "SpendWise",
+    "slug": "spendwise",
+    "version": "1.0.0",
+    "scheme": "runable-spendwi-kd8xfjj",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store",
+      "expo-web-browser"
+    ]
+  }
+}
